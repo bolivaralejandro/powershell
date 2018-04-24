@@ -50,4 +50,5 @@ function log { param($string, $scnlg, $evntlg)
 
 $date = Get-Date
 log "Starting script at $date ..." "Y" "Y"
-log "ScriptStart,$date"
+log "Writing a message to the Event Log Only." "N" "Y"
+log "Script Start, $date"
